@@ -1,0 +1,3 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$finish called at time : 245 ns : File "C:/Users/dwigh/Xilinx/TimeMultiplexed_FIR/TimeMultiplexed_FIR.srcs/sim_1/new/tb_TimeMultiplexedFIR.v" Line 90

@@ -1,0 +1,24 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 037815acb854483caf1c566a6887d20c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_TimeMultiplexed_FIR_behav xil_defaultlib.tb_TimeMultiplexed_FIR xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'RST' is not connected on this instance [C:/Users/dwigh/Xilinx/TimeMultiplexed_FIR/TimeMultiplexed_FIR.srcs/sources_1/new/TimeMultiplexed_FIR.v:40]
+WARNING: [VRFC 10-5021] port 'RST' is not connected on this instance [C:/Users/dwigh/Xilinx/TimeMultiplexed_FIR/TimeMultiplexed_FIR.srcs/sources_1/new/TimeMultiplexed_FIR.v:42]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF(WI=2,WF=6)
+Compiling module xil_defaultlib.MUX3IN
+Compiling module xil_defaultlib.FixedPointMult(WI1=2,WF1=6,WI2=2...
+Compiling module xil_defaultlib.FixedPointAdder(WF1=12,WI2=2,WF2...
+WARNING: [VRFC 10-1324] repetition multiplier must be positive [C:/Users/dwigh/Xilinx/TimeMultiplexed_FIR/TimeMultiplexed_FIR.srcs/sources_1/new/FixedAdder.v:58]
+WARNING: [VRFC 10-1324] repetition multiplier must be positive [C:/Users/dwigh/Xilinx/TimeMultiplexed_FIR/TimeMultiplexed_FIR.srcs/sources_1/new/FixedAdder.v:60]
+WARNING: [VRFC 10-1324] repetition multiplier must be positive [C:/Users/dwigh/Xilinx/TimeMultiplexed_FIR/TimeMultiplexed_FIR.srcs/sources_1/new/FixedAdder.v:70]
+WARNING: [VRFC 10-1324] repetition multiplier must be positive [C:/Users/dwigh/Xilinx/TimeMultiplexed_FIR/TimeMultiplexed_FIR.srcs/sources_1/new/FixedAdder.v:71]
+Compiling module xil_defaultlib.TimeMultiplexed_FIR
+Compiling module xil_defaultlib.tb_TimeMultiplexed_FIR
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_TimeMultiplexed_FIR_behav

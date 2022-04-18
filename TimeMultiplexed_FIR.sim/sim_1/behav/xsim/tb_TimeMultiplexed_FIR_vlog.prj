@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../TimeMultiplexed_FIR.srcs/sources_1/new/3IN_MUX.v" \
+"../../../../TimeMultiplexed_FIR.srcs/sources_1/new/DFF.v" \
+"../../../../TimeMultiplexed_FIR.srcs/sources_1/new/FixedAdder.v" \
+"../../../../TimeMultiplexed_FIR.srcs/sources_1/new/FixedMult.v" \
+"../../../../TimeMultiplexed_FIR.srcs/sources_1/new/TimeMultiplexed_FIR.v" \
+"../../../../TimeMultiplexed_FIR.srcs/sim_1/new/tb_TimeMultiplexedFIR.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
